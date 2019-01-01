@@ -26,11 +26,11 @@ or, to update your installed version to the latest release:
 Recording files must be 15 secs or less of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
 
 Here is how the myspokenlanguagedetection function behave,  
+
 						[in1]		import myspokenlanguagedetection as mysp
-						[in2]		p=r"C:\Users\name\Desktop\directory_for_audio_files" 
+						[in2]		p=r"C:\Users\name\Desktop\directory_for_audio_files"
 						[in3]		m="audio_file_name" #Set to be in wav format 
 						[in4]		mysp.myspolangdet(m,p)
-						
 						[out]		probability degree: [fr:99.95%]             #the first guess
 								the language could be: French
 								probability degree: [sv:85.72%, it:14.28%]  #the second guess
