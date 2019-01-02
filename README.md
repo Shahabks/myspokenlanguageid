@@ -37,8 +37,9 @@ Here is how the myspokenlanguagedetection function behave,
 								the language could be: French
 								probability degree: [sv:85.72%, it:14.28%]  #the second guess
 								the language could be: Swedish
-  
-                                                        Development
+  Please check out EXAMPLES.pdf. 
+                                                        
+							Development
 
 Myspokenlanguagedetection was developed by MYOLUTIONS Lab in Japan. It is part of New Generation of Voice Recognition and Acoustic & Language modeling Project in MYSOLUTIONS Lab. That is planned to enrich the functionality of Myspokenlanguagedetection by adding more advanced functions. 
 
