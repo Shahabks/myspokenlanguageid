@@ -15,31 +15,34 @@ Myspokenlanguagedetection is a preliminary package structured for SPOKEN LANGUAG
 THIS version of myspokenlanguagedetection was trained to detect "French", "English", "Spanish", "Italian", "Deutsch", "Russian", "Portuguese", "Swedish", and "Japanese" and to some lower extent other 40 languages. We will complete the machine training 
 sessions for more languages along with increasing the accuracy of the languages identification process.
 
-                                                          Installation
-                                                         =============
+## Installation
+
 Myspokenlanguagedetection can be installed like any other Python library, using (a recent version of) the Python package 
 manager pip, on Linux, macOS, and Windows:
 
-                                                    pip install Myspokenlanguagedetection
+                                        pip install Myspokenlanguagedetection
 				
 or, to update your installed version to the latest release:
-                                                    pip install -u Myspokenlanguagedetection 	
+
+                                        pip install -u Myspokenlanguagedetection 	
                                                     
 Recording files must be 15 secs or less of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
 
 Here is how the myspokenlanguagedetection function behave,  
 
-						[in1]		import myspokenlanguagedetection as mysp
-						[in2]		p=r"C:\Users\name\Desktop\directory_for_audio_files"
-						[in3]		m="audio_file_name" #Set to be in wav format 
-						[in4]		mysp.myspolangdet(m,p)
-						[out]		probability degree: [fr:99.95%]             #the first guess
-								the language could be: French
-								probability degree: [sv:85.72%, it:14.28%]  #the second guess
-								the language could be: Swedish
+				[in1]		import myspokenlanguagedetection as mysp
+				
+				[in2]		p=r"C:\Users\name\Desktop\directory_for_audio_files"
+				[in3]		m="audio_file_name" #Set to be in wav format 
+				[in4]		mysp.myspolangdet(m,p)
+				
+				[out]		probability degree: [fr:99.95%]             #the first guess
+						the language could be: French
+						probability degree: [sv:85.72%, it:14.28%]  #the second guess
+						the language could be: Swedish
   Please check out EXAMPLES.pdf. 
                                                         
-							Development
+## Development
 
 Myspokenlanguagedetection was developed by MYOLUTIONS Lab in Japan. It is part of New Generation of Voice Recognition and Acoustic & Language modeling Project in MYSOLUTIONS Lab. That is planned to enrich the functionality of Myspokenlanguagedetection by adding more advanced functions. 
 
