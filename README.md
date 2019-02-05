@@ -15,8 +15,18 @@ However, the Machine Learning process based on extract features remains a challe
 
 Myspokenlanguagedetection is a preliminary package structured for SPOKEN LANGUAGE IDENTIFICATION based on standard feature extraction and CNN and RNN. An optimisation approach was employed as the benchmark and improved by altering the selection phase of the optimisation process. The selection process is performed incorporating deferent methods. The results are generated based on SPOKEN LANGUAGE IDENTIFICATION with the datasets created from eighteen different languages. The results of the study indicate the performance of Machine Learning highly correlated with the soundness of architecture of Neural Networks and co-existence of acoustic and language models. 
 
-THIS version of myspokenlanguagedetection was trained to detect "French", "English", "Spanish", "Italian", "Deutsch", "Russian", "Portuguese", "Swedish", and "Japanese" and to some lower extent other 40 languages. We will complete the machine training 
-sessions for more languages along with increasing the accuracy of the languages identification process.
+THIS version of myspokenlanguagedetection was trained to detect 
+- "French", 
+- "English", 
+- "Spanish", 
+- "Italian",
+- "Deutsch", 
+- "Russian", 
+- "Portuguese", 
+- "Swedish", 
+- "Japanese" 
+
+and will increase to more languages as We will progress to complete the machine training sessions for more languages along with increasing the accuracy of the languages identification process.
 
 ## Installation
 
@@ -29,7 +39,7 @@ or, to update your installed version to the latest release:
 
                                      pip install -u Myspokenlanguagedetection 	
                                                     
-Recording files must be 25 secs or less of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
+Recording files must be **25 secs or longer** of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
 
 Here is how the myspokenlanguagedetection function behave,  
 
