@@ -43,17 +43,31 @@ Recording files must be **25 secs or longer** of audio and in *.wav PCM/LPCM for
 
 Here is how the myspokenlanguagedetection function behave,  
 
-			[in1]		import myspokenlanguagedetection as mysp
+			[in1]		import my_spoken_language_detection  as mm
 				
-			[in2]		p=r"C:\Users\name\Desktop\directory_for_audio_files"
+			[in2]		p=r"C:\Users\my\Desktop\myLanguageIdentification\dataset\audioFiles"
 			[in3]		m="audio_file_name" #Set to be in wav format 
-			[in4]		mysp.myspolangdet(m,p)
+			[in4]		mm.myspolangdet(m,p)
 				
-			[out]		probability degree: [fr:99.95%]             #the first guess
-					the language could be: French
-					probability degree: [sv:85.72%, it:14.28%]  #the second guess
-					the language could be: Swedish
-  Please check out EXAMPLES.pdf. 
+			[out]		convergence rate %:    29             #the first guess
+					convergence rate %:    5
+					hold on!! 
+					convergence rate %:    40 	      #the second guess
+					the language could be: Japanese
+					
+			[in2] 		mm.myspolangESY()      		      # a quick check function, interactive
+			[in2 on shell] 	Enter the path to the Language_Identification directory:
+					C:\Users\my\Desktop\myLanguageIdentification\dataset\audioFiles
+			[in2 on shell] 	what is your name?    heuiy	      # the audio file name which you wish to analyze 
+
+			[out]	 	convergence rate %:    25
+					convergence rate %:    45
+					convergence rate %:    7
+					convergence rate %:    17
+					convergence rate %:    30
+					the language could be: English 
+			
+Please check out EXAMPLES.pdf. 
                                                         
 ## Development
 
