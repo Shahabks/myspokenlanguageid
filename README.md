@@ -1,6 +1,6 @@
 # myspokenlanguageid
 
-##*** Version-5 release with accuracy improvement *** 
+##Version-5 release with accuracy improvement
 
 ### Spoken language identification with CNN and RNN - Early Stage
 
