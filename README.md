@@ -1,4 +1,7 @@
 # myspokenlanguageid
+
+##*** Version-5 release with accuracy improvement *** 
+
 ### Spoken language identification with CNN and RNN - Early Stage
 
 This program may take a minute or so to get results showed on the screen, please be patient.
@@ -26,7 +29,7 @@ or, to update your installed version to the latest release:
 
                                      pip install -u Myspokenlanguagedetection 	
                                                     
-Recording files must be 15 secs or less of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
+Recording files must be 25 secs or less of audio and in *.wav PCM/LPCM format, recorded at 48 kHz sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; OGG-FLAC is not supported.
 
 Here is how the myspokenlanguagedetection function behave,  
 
